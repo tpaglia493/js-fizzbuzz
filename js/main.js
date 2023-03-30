@@ -8,7 +8,8 @@ for (i = 0; i <= 100; i++) {
 
         if (numberInsideTheBox % 5 == 0) {
             numberInsideTheBox = "FIZZ-BUZZ"
-        }else { numberInsideTheBox = "FIZZ" }
+        }else { numberInsideTheBox = "FIZZ"
+     }
     
     }else if (numberInsideTheBox % 5 == 0) {
          numberInsideTheBox == "BUZZ" }
@@ -18,6 +19,6 @@ for (i = 0; i <= 100; i++) {
     //HTML MODIFIER
     document.getElementById("container-of-boxes").innerHTML += `
     <div class="col-1 card" style="height:100px; width:100px">
-        <p class="m-auto">${i}</p>
+        <p class="m-auto">${numberInsideTheBox}</p>
     </div>`
 }
