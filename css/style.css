@@ -1,0 +1,9 @@
+.card{height: 100px;
+width:100px;
+margin: 10px;}
+
+.bg-fizz{background-color: red;}
+
+.bg-buzz{background-color: orange;}
+
+.bg-fizz-buzz{background-color: yellow;}
